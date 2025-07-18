@@ -1,0 +1,46 @@
+[2025-07-18 06:48:15] INFO: 🚀 JOB COFFIN V5 DEPLOYMENT COORDINATOR STARTING...
+[2025-07-18 06:48:15] INFO: ======================================================================
+[2025-07-18 06:48:15] INFO: 🛡️ PHASE 0: PROACTIVE ERROR PREVENTION
+[2025-07-18 06:48:15] INFO: 🔍 SCANNING FOR YOUR DOCUMENTED ERROR PATTERNS...
+[2025-07-18 06:48:15] INFO: ⚠️ DETECTED 2 ERROR PATTERNS from your documented failures:
+[2025-07-18 06:48:15] INFO:   1. CRITICAL: Python file detected: error_resistant_deployment_coordinator.py
+[2025-07-18 06:48:15] INFO:      Impact: Causes Railway to use Dockerfile instead of Nixpacks
+[2025-07-18 06:48:15] INFO:   2. CRITICAL: Python file detected: pure_python_coordinator.py
+[2025-07-18 06:48:15] INFO:      Impact: Causes Railway to use Dockerfile instead of Nixpacks
+[2025-07-18 06:48:15] INFO: 🔧 AUTO-FIXING DETECTED PATTERNS...
+[2025-07-18 06:48:15] INFO: 🔧 FIXING REPOSITORY CORRUPTION (Python files in Node.js repo)
+[2025-07-18 06:48:15] INFO: Found 2 Python files to remove
+[2025-07-18 06:48:15] INFO: Removed: .\error_resistant_deployment_coordinator.py
+[2025-07-18 06:48:15] INFO: Removed: .\pure_python_coordinator.py
+[2025-07-18 06:48:15] INFO: Executing: git add .
+[2025-07-18 06:48:16] ERROR: ❌ Error: fatal: not a git repository (or any of the parent directories): .git
+[2025-07-18 06:48:16] ERROR: Git cleanup command failed: git add .
+[2025-07-18 06:48:16] INFO: 🔧 FIXING REPOSITORY CORRUPTION (Python files in Node.js repo)
+[2025-07-18 06:48:16] INFO: No Python files found - repository clean
+[2025-07-18 06:48:16] INFO: 
+🏗️ PHASE 1: PROJECT STRUCTURE CREATION
+[2025-07-18 06:48:16] INFO: 🏗️ CREATING JOB COFFIN V5 PROJECT STRUCTURE...
+[2025-07-18 06:48:16] INFO: ✅ Created package.json
+[2025-07-18 06:48:16] INFO: ✅ Created index.js with 0.0.0.0 binding
+[2025-07-18 06:48:16] INFO: ✅ Created .env file
+[2025-07-18 06:48:16] INFO: 
+📦 PHASE 2: DEPENDENCY INSTALLATION
+[2025-07-18 06:48:16] INFO: 📦 INSTALLING NPM DEPENDENCIES...
+[2025-07-18 06:48:16] INFO: Executing: npm install
+[2025-07-18 06:48:18] INFO: ✅ Success: added 107 packages, and audited 108 packages in 2s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+[2025-07-18 06:48:18] INFO: ✅ Dependencies installed successfully
+[2025-07-18 06:48:18] INFO: 
+🧪 PHASE 3: LOCAL SERVER TESTING
+[2025-07-18 06:48:18] INFO: 🧪 TESTING LOCAL SERVER...
+[2025-07-18 06:48:23] INFO: ✅ Local server test passed
+[2025-07-18 06:48:23] INFO: 
+📁 PHASE 4: GIT REPOSITORY SETUP
+[2025-07-18 06:48:23] INFO: 📁 SETTING UP GIT REPOSITORY...
+[2025-07-18 06:48:23] INFO: Executing: git init
+[2025-07-18 06:48:24] INFO: ✅ Success: Initialized empty Git repository in C:/dev/.git/
+[2025-07-18 06:48:24] INFO: Executing: git add .
